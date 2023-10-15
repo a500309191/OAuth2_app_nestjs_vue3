@@ -1,0 +1,135 @@
+div * {
+  font-family: Arial; 
+}
+
+body {
+  background-color: rgb(245, 245, 245);
+}
+
+#app {
+  display: grid;
+  grid-auto-columns: 10vw 80vw 10vw;
+  grid-auto-rows: 10vh;
+}
+
+.app {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+}
+
+
+
+
+
+.unauthorized-window {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.notification {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  opacity: 0.5;
+}
+
+.amo-button {
+  background-color: #339DC8;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition-duration: 0.3s;
+  font-size: 20px;
+}
+
+.amo-button:hover {
+  background-color: #00698d;
+  transition-duration: 0.3s;
+}
+
+
+
+
+
+
+::-webkit-scrollbar {
+  display: none;
+  }
+  * {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  }
+  
+  .leads {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .leads-table {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px;
+    border-radius: 12px;
+  }
+  
+  .leads-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    height: 60vh;
+    overflow-y: scroll;
+  }
+  
+  .lead-headers,
+  .lead {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr 2fr 2fr;
+    grid-template-rows: 1fr;
+    column-gap: 2px;
+  }
+  
+  .lead-headers > div {
+    font-size: 13px;
+    background-color: rgb(220, 220, 220);
+  }
+  
+  .lead > div {
+    background-color: rgb(240, 240, 240);
+  }
+  
+  .lead-headers > div,
+  .lead > div {
+    padding: 12px;
+  }
+
+
+
+
+
+  .filter {
+    width: 20vw;
+    align-self: flex-end;
+    padding: 6px 10px;
+    margin: 4px 0;
+    border: 0px;
+    border-radius: 6px;
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    outline: none;
+  }
+  
+  .filter::placeholder {
+    opacity: 0.5;
+  }
